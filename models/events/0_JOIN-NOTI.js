@@ -14,7 +14,7 @@ module.exports.run = async function({ api, event }) {
   const { threadID } = event;
     if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`${global.config.BOTNAME} 【 ${global.config.PREFIX} 】`, threadID, api.getCurrentUserID());
-    return api.sendMessage(`┏━━━━━━┓\n    ARIF-BABU                    ♥️┄┅══❁🙂❁══┅┄♥️\n┗━━━━━━┛\n♥️✧═════════•❁❀❁•═════════✧♥️\n\n𒁍 [ BOT OWNER ]  →     ♥️ ARIF-BABU ♥️\n𒁍 [  NOTICE ] →KOI BOT KO GALI NHI DEGA AGAR KISI NA BINA FALTU KI GALI DIYA TO USKI ID BAND KAR DIYA JAYEGA\n𒁍 [ USER NOTICE ] → BOT KO BAR BAR ADD OR REMOVE NA KARO NAHI TO AAP KA GROUP BAN KIYA JAEGA 🙂✋\n𒁍 [ COMMANDS ]  →     #help \n\nTHIS BOT CREATER IS ARIF BABU\n\n𒁍 [ PREFIX ] →      # \n𒁍 [ FACEBOOK ID ] → https://www.facebook.com/profile.php?id=61553634015672&mibextid=kFxxJD\n𒁍 [ OWNER ] →  MR ARIF BABU\n𒁍 [ APPROVAL ] →   #request`, threadID);
+    return api.sendMessage(`┏━━━━━━┓\n    LGND ALIYA INSIDE                    ♥️┄┅══❁🙂❁══┅┄♥️\n┗━━━━━━┛\n♥️✧═════════•❁❀❁•═════════✧♥️\n\n𒁍 [ BOT OWNER ]  →     ♥️ 𝗟𝗚𝗡𝗗 𝗔𝗟𝗜𝗬𝗔 ♥️\n𒁍 [  NOTICE ] →KOI BOT KO GALI NHI DEGA AGAR KISI NA BINA FALTU KI GALI DIYA TO USKI ID BAND KAR DIYA JAYEGA\n𒁍 [ USER NOTICE ] → BOT KO BAR BAR ADD OR REMOVE NA KARO NAHI TO AAP KA GROUP BAN KIYA JAEGA 🙂✋\n𒁍 [ COMMANDS ]  →     #help \n\nTHIS BOT CREATER IS 𝗟𝗚𝗡𝗗 𝗔𝗟𝗜𝗬𝗔\n\n𒁍 [ PREFIX ] →      # \n𒁍 [ FACEBOOK ID ] → https://www.facebook.com/profile.php?id=61581637187236\n𒁍 [ OWNER ] →  LGND ALIYA\n𒁍 [ APPROVAL ] →   #request`, threadID);
     }
   else {
     try {
