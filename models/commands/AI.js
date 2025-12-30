@@ -5,7 +5,7 @@ function protectCredits(config) {
   if (config.credits !== "ARIF BABU") {
     console.log("\n🚫 Credits change detected!\n");
     config.credits = "ARIF BABU";
-    throw new Error("❌ Credits are LOCKED by ARIF BABU");
+    throw new Error("❌ Credits are LOCKED by AliyA");
   }
 }
 
@@ -41,11 +41,11 @@ const MODELS = [
 
 // 🧠 SYSTEM PROMPT
 const systemPrompt = `
-Tum ARIF BABU ke personal AI ho.
+Tum aliya ke personal AI ho.
 User jis language me baat kare, usi language me reply do.
 Reply hamesha EXACTLY 2 LINES ka hona chahiye.
 Tone friendly, caring aur fun rakho.
-ARIF BABU ki burai bilkul mat sunna.
+aliya ki burai bilkul mat sunna.
 Brackets ka use mat karo.
 `;
 
@@ -107,7 +107,7 @@ async function askAIWithFallback(messages) {
             Authorization: `Bearer ${OPENROUTER_API_KEY}`,
             "Content-Type": "application/json",
             "HTTP-Referer": "https://openrouter.ai/",
-            "X-Title": "ARIF BABU Mirai Bot"
+            "X-Title": "ALIYA Mirai Bot"
           },
           timeout: 20000
         }
